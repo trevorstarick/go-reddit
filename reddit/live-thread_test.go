@@ -128,6 +128,7 @@ var expectedLiveThreadDiscussions = []*Post{
 
 		Author:   "TestUser",
 		AuthorID: "t2_test1",
+		Awards:   []Award{},
 	},
 	{
 		ID:      "test2",
@@ -153,6 +154,7 @@ var expectedLiveThreadDiscussions = []*Post{
 
 		Author:   "TestUser",
 		AuthorID: "t2_test1",
+		Awards:   []Award{},
 	},
 }
 
