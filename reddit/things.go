@@ -606,6 +606,8 @@ type Post struct {
 
 	Media Media `json:"media,omitempty"`
 
+	CrosspostParentList []Post `json:"crosspost_parent_list,omitempty"`
+
 	Score            int     `json:"score"`
 	UpvoteRatio      float32 `json:"upvote_ratio"`
 	NumberOfComments int     `json:"num_comments"`
